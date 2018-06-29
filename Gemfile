@@ -20,7 +20,7 @@ group :development, :test do
 
   # selenium-webdriver & chromedriver-helper used by
   # JavaScript-dependent feature specs (`js: true`):
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 2.45.0'
   gem 'chromedriver-helper'
 
   gem 'puffing-billy'
